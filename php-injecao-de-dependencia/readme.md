@@ -30,6 +30,16 @@ Para evitar esses problemas, podemos trabalhar com a injeção de dependência d
     + frameworks, como o Symphony, já possuem um container de dependência embutido
     + responsável por instanciar os objetos e gerenciar as dependências através de um arquivo de configuração
 
+
+## Requisitos mínimos para executar os testes 5 e 6...
+
+Os exemplo 5 e 6 utilizam o container de dependência do módulo PHP-DI, para instalar o módulo execute 
+os comando abaixo:
+
+    $ cd php-di
+    $ composer install
+
+
 ## Links
 
 http://br.phptherightway.com/#dependency_injection
