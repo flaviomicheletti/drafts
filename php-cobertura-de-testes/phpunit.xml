@@ -1,0 +1,19 @@
+<phpunit
+    colors="true"
+    stopOnFailure="false"
+>
+    <testsuites>
+        <testsuite name="todos">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">*</directory>
+            <exclude>
+                <directory>resultado</directory>
+                <directory>tests</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>
